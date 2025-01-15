@@ -2,6 +2,7 @@
   This is a program for creating a faulted knowledge graph and sorting it in time.This program extracts the fault data from the shpfile and creates a directed graph based on the fault cuts.
 ## The file structure
 The file structure includes the test data folder, the fault class faultKG.py, and the main test program.
+![file](https://github.com/user-attachments/assets/6a0b597a-41a3-4230-acef-2fbc45db2a5d)
 ## program function：
 1.Generate a fault directed graph.  
 2.Determine the generation order based on the fault cutting relationship and sort by generation time.  
