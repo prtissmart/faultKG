@@ -14,7 +14,7 @@ The file structure includes the test data folder, the fault class faultKG.py, an
 ### Flow chart
 ![flow](https://github.com/user-attachments/assets/6fed3de0-10bb-47ce-99e6-c025437a55df)  
 ## How to use rdf file  
-### 1.Importing rdf into neo4j  
+### Importing rdf into neo4j  
 #### step1 Download plug-ins 
 Go to the neosemantics GitHub page to download the plugin.(https://github.com/neo4j-labs/neosemantics)
 #### step2 Place the plugin JAR file into the Neo4j plugin directory
