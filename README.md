@@ -12,4 +12,17 @@ The file structure includes the test data folder, the fault class faultKG.py, an
 2.The data folder contains two test data.You can use both or use your own fault data.  
 3.File paths for inputting fault data and outputting rdf files.
 ### Flow chart
-![flow](https://github.com/user-attachments/assets/6fed3de0-10bb-47ce-99e6-c025437a55df)
+![flow](https://github.com/user-attachments/assets/6fed3de0-10bb-47ce-99e6-c025437a55df)  
+## How to use rdf file  
+### 1.neo4j  
+#### step1 Download plug-ins 
+Go to the neosemantics GitHub page to download the plugin.(https://github.com/neo4j-labs/neosemantics)
+#### step2 Place the plugin JAR file into the Neo4j plugin directory
+Place the plugin JAR file into the Neo4j plugin directory;  
+If you are using the default installation, the plugin directory is usually located at: **<neo4j_home>/plugins/
+#### step3 Modify the Neo4j config file
+Open the Neo4j configuration file neo4j.conf, the file path is usually: **<neo4j_home>/conf/neo4j.conf  
+Make sure the following lines are added to the configuration file  
+```
+dbms.security.procedures.unrestricted=n10s.*
+dbms.security.procedures.allowlist=n10s.*
